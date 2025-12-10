@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Privacy Policy...</title>
+</head>
+<body>
+  <p>Redirecting to your language version of the Privacy Policy...</p>
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+    if (lang.startsWith('de')) {
+      window.location.href = 'privacy-de.html';
+    } else {
+      window.location.href = 'privacy-en.html';
+    }
+  </script>
+</body>
+</html>
